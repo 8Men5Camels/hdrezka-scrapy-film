@@ -12,7 +12,7 @@ git clone https://github.com/8Men5Camels/hdrezka-scrapy-film.git
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-python python hdrezka/spiders/film.py # run script film.py
+python hdrezka/spiders/film.py # run script film.py
 ```
 
 We will receive a `film.csv` file with saved movie data. And we read it using pandas DataFrame. 
